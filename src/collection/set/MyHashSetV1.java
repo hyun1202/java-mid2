@@ -25,7 +25,7 @@ public class MyHashSetV1 {
     public boolean add(int value) {
         int hashIndex = hashIndex(value);
         LinkedList<Integer> backet = backets[hashIndex];
-        if (backet.contains(hashIndex)) {
+        if (backet.contains(value)) {
             return false;
         }
         backet.add(value);
