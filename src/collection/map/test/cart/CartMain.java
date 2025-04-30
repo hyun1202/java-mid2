@@ -7,7 +7,6 @@ package collection.map.test.cart;
 
 // 장바구니 제거
 // 수량 감소, 수량이 0보다 작으면 상품이 장바구니에서 제거
-
 public class CartMain {
     public static void main(String[] args) {
         Cart cart = new Cart();
